@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("./images/Neurons.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo-name {
+    padding:10px;
+    color: azure;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(163, 32, 245, 0.2);;
+    
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+flex: 1;
+text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #881ca6;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.nav-links ul li a{
+    color: azure;
+    text-decoration: solid;
+    font-size: 13px;
+}
+
+.container-text-box{
+    width: 90%;
+    color: azure;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.homepage-quote {
+    font-size: 60px;
+}
+
+nav .fa {
+    display: none;
+}
+
+.about-me {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about-me h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.about-me p {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: black;
+    color: azure;
+    position: relative;
+    height: 20;
+    margin-top: -100px;
+    clear: both;
+}
+
+.form-wrapper {
+    width: 300px;
+}
+
+.form-wrapper input{
+    width: 100%;
+}
+
+.form-wrapper textarea {
+    resize: vertical;
+    max-height: 300px;
+    width: 100%;
+}
+
+input, textarea {
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 4px rgba(255, 0, 0, 0.5);
+    border: 1px solid rgba(255, 0, 0);
+}
