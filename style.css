@@ -73,30 +73,12 @@ text-align: right;
     text-align: center;
 }
 
-.homepage-quote {
-    font-size: 60px;
+#homepage-quote {
+    font-size: 70px;
 }
 
 nav .fa {
     display: none;
-}
-
-.about-me {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
-.about-me h1 {
-    font-size: 36px;
-    font-weight: 600;
-}
-
-.about-me p {
-    color: black;
-    font-size: 14px;
-    font-weight: 300;
 }
 
 .footer {
